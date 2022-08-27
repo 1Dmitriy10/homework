@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    padding: 30px 0 30px 0;
+    background-color: rgb(50, 57, 60);
+    
+    font-size: 50px;
+    & h1{color: rgb(36 126 186);}
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+main{
+    background-color: rgb(50, 57, 60);
+}
+.nav-app{
+    padding: 30px 0 30px 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.btn{
+    font-size: 25px;
+    height: 60px;
+    width: 200px;
+}
